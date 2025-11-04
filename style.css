@@ -157,3 +157,43 @@ body{
 .contact-actions .btn:hover {
   background-color: #005f99;
 }
+@media (max-width: 992px) {
+  .img-fluid {
+    height: 350px;
+    width: 100%;
+  }
+
+  .col-lg-6 {
+    padding-left: 2em;
+  }
+
+  .education-col {
+    flex: 1 1 100%;
+  }
+
+  .contact-col {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  .experience-container,
+  .education-container,
+  .contact-container {
+    padding: 1rem;
+  }
+
+  .experience-entry,
+  .education-col {
+    padding: 1rem;
+  }
+
+  .contact-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
